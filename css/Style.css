@@ -1,0 +1,319 @@
+@font-face {
+  font-family: Morgan;
+  src: url(../font/title.ttf);
+}
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Tahoma";
+  font-size: 15px;
+}
+
+/* Oblikovanje glave obrazca */
+#Header {
+  margin: 100px auto 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#dice {
+  padding: 15px;
+  height: 150px;
+}
+#sredni {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 200px;
+  padding: 20px;
+  border: solid 4px white;
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';
+	border-radius: 10px;
+}
+.imena {
+  font-family: "Tahoma";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.numero {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Tahoma";
+}
+.naslov {
+  font-size: 120px;
+  font-family: "Morgan";
+  color: white;
+  background-color:#006666;
+  border-radius:10px;
+  padding:10px;
+  border: solid 4px white;
+  opacity: 0.82;
+}
+
+hr {
+  border: 2px solid darkgray;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+#wrapper {
+  margin: auto;
+  width: 945px;
+  background-color: #006666;
+  border: solid 4px white;
+  border-radius: 10px;
+  opacity: 0.92;
+}
+
+.player {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 200px;
+  padding: 20px;
+  border: solid 4px white;
+  background-color: #0c0c0c;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';
+	border-radius: 10px
+}
+
+.playerk {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 200px;
+  padding: 20px;
+  border: solid 4px white;
+  background-color: #0c0c0c;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';
+	border-radius: 10px;  
+}
+.players {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 200px;
+  padding: 20px;
+  border: solid 4px white;
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';
+	border-radius: 10px;  
+}
+
+.numr {
+  margin-left: 50px;
+  margin-top: 22px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-size: 18.5px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+	border: solid 4px white;
+	border-radius: 10px;	
+	background-color: #0c0c0c;
+	font-family:'display';
+}
+.numd {
+  margin-left: 50px;
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+	border: solid 4px white;
+	border-radius: 10px;	
+	background-color: #0c0c0c;
+	font-family:'display';
+	font-size: 18.5px;
+}
+.numb {
+  margin-left: 50px; 
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+
+}
+#submit{
+	margin-left: -20px; 
+	margin-top: -10px; 
+	border: solid 4px white;
+	width: 250px;
+	height: 105px;
+	border-radius: 10px;
+	background-color:red;
+	padding: 15px 32px;
+	text-align: center;
+	font-family:'morgan';
+    font-size: 30px;
+	color: white;	
+	margin-bottom: 20px;
+	opacity: 0.92;
+}
+#submit:hover, #results:hover{
+	transition: 0.5s;
+	background-color: #441B04;
+}
+input[type="text"] {
+  padding: 2px;
+  border: none;
+  width: 140px;
+	height: 22px;
+	color:white;
+  border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background-color: #006666;
+}
+#buuton {
+  text-align: center;
+  
+}
+
+#runda {
+  margin-left: 50px; 
+	margin-top: -90px; 
+	border: solid 4px white;
+	width: 178px;
+	height: 31px;
+	border-radius: 10px;
+	background-color:#0c0c0c;
+	padding: 15px 32px;
+	text-align: center;
+    font-size: 30px;
+	color: white;	
+	margin-bottom: 20px;
+	opacity: 0.92;
+	font-family:display;
+}
+
+#redirekt { 
+  font-family: "Tahoma";
+  color: white;
+  margin-left: 720px;
+  margin-top: 5px;
+  width: 300px;
+  font-size:13px;
+}
+#userOne, #userTwo, #userThree{
+	font-size: 33px;
+}
+#dNum{
+	margin-top:10px;
+	width: 60px;
+	height: 22px;	
+	border: none;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background-color: #006666;
+	color: white;
+	font-size: 16px;
+}
+#rNum{
+	margin-top:10px;
+	width: 60px;
+	height: 22px;	
+	border: none;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background-color: #006666;
+	color: white;
+	font-size: 16px;
+}
+.score{
+	font-size: 20px;
+}
+#results{
+	margin-left: 10px; 
+	margin-top: 10px; 
+	border: solid 4px white;
+	width: 250px;
+	height: 70px;
+	border-radius: 10px;
+	background-color:red;
+	padding: 15px 32px;
+	text-align: center;
+	font-family:'morgan';
+    font-size: 30px;
+	color: white;	
+	margin-bottom: 20px;
+	opacity: 0.92;
+}
+.playerw1 {
+	position: absolute;
+  font-size: 25px;
+  left: 28%;
+  top: 45%;
+  width: 200px;
+  padding: 20px;
+  background-color: #0c0c0c;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';  
+}
+.playerw2 {
+	position: absolute;
+  font-size: 25px;
+  left: 43%;
+  top: 45%;
+  width: 200px;  
+  padding: 20px;
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';  
+}
+.playerw3 {
+	position: absolute;
+  font-size: 25px;
+  left: 58%;
+  top: 45%;
+  width: 200px;
+  padding: 20px;
+  background-color: #0c0c0c;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family:'display';  
+}
+.winner {
+	position: absolute;
+	top: 39%;
+    height: 150px;
+	background-color: #a67c00;
+	font-size:45px;
+}
+#wrapperkonc {
+   margin: auto;
+    width: 945px;
+    height: 350px;
+    background-color: #006666;
+    border: solid 4px white;
+    border-radius: 10px;
+    opacity: 0.92;    
+    display: flex;
+    justify-content: space-between; 
+}
