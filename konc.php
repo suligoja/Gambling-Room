@@ -66,9 +66,14 @@
             
         </div>
         </form>
-
+	<img id="confetti" src="images/confeti.gif" alt="Confetti">
 
         <script>
+		function initPage() {
+    redirTimer();
+    showConfetti();
+}
+
         var secondsLeft = 10;
             function redirTimer(){
             setInterval(function(){
@@ -80,6 +85,15 @@
             }, 1000);
             
         }
+		function showConfetti() {
+    
+    document.getElementById("confetti").style.display = 'block';
+
+    
+    setTimeout(function() {
+        document.getElementById("confetti").style.display = 'none';
+    }, 10000); 
+}
         </script>
 	</body>
 </html>
